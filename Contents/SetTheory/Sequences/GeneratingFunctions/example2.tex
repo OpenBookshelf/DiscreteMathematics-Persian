@@ -1,0 +1,23 @@
+\begin{PROBLEM}
+    \p
+    اگر 
+    $G(x)=\frac{1}{(1-x)^{2}}$
+    باشد، ضرایب را در بسط 
+    $G(x)=\sum\limits_{n=0}^{+\infty} a_{n}x^{n}$
+    به دست بیاورید.( 
+    $|x| < 1$
+    )
+     
+    \SOLUTION{
+        \p
+        از آن جایی که 
+        $|x| < 1$
+        است، می‌توان گفت که داریم:
+            $$ \frac{1}{1-x} = \sum\limits_{n=0}^{+\infty} x^{n} $$
+        بنابراین:
+            $$G(x)= \frac{1}{(1-x)^{2}} = (\sum\limits_{n=0}^{+\infty} x^{n})(\sum\limits_{n=0}^{+\infty} x^{n})$$ 
+            $$= \sum\limits_{n=0}^{+\infty} (\sum\limits_{m=0}^{n} 1) x^{n} = \sum\limits_{n=0}^{+\infty} (n+1)x^{n}$$
+        پس:
+        $$a_n = n+1$$
+    }
+\end{PROBLEM}

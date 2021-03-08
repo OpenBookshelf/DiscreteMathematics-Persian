@@ -1,0 +1,33 @@
+\SECTION{اعداد کاتالان}
+اعداد کاتالان دنباله‌ای از اعداد طبیعی هستند که در مسائل شمارش متنوعی ظاهر می‌شوند.
+
+\SUBSECTION{روابط اعداد کاتالان}
+\subfile{./examples/1.tex}
+\begin{DEFINITION}
+      به اعدادی که در رابطه بازگشتی
+    \[\begin{cases}
+        C_{n+1}=\sum_{i=0}^n C_iC_{n-i} & n\geq 0 \\
+        
+        C_0=1
+    \end{cases}
+    \]
+    صدق می کنند,
+    \FOCUSEDON{ اعداد کاتالان}
+      می‌گوییم..
+\end{DEFINITION}
+حال می‌خواهیم فرم غیر بازگشتی این دنباله را بیابیم.
+\subfile{./examples/2.tex}
+\begin{THEOREM}
+    رابطه غیر بازگشتی اعداد کاتالان به صورت
+    \[C_n=\binom{2n}{n}-\binom{2n}{n+1}=\dfrac{1}{n+1}\binom{2n}{n}\]
+    است
+    .
+\end{THEOREM}
+
+\SUBSECTION{نمونه مسائل}
+
+همانطور که در ابتدای بخش گفته شد, کاربرد این دنباله در حل مسائل شمارش است. در ادامه تعدادی از این مسائل را می‌بینیم.
+\subfile{./examples/3.tex}
+\subfile{./examples/4.tex}
+\subfile{./examples/5.tex}
+\subfile{./examples/6.tex}

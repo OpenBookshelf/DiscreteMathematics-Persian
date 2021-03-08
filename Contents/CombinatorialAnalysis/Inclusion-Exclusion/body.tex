@@ -1,0 +1,43 @@
+\SECTION{اصل شمول و عدم شمول}
+
+\begin{DEFINITION}
+    \p
+    \FOCUSEDON{اصل شمول و عدم شمول:}
+    اگر بتوان فضای حالات عملی را به دو فضای
+    $A_1$
+    و
+    $A_2$
+    تقسیم کرد به نحوی که این دو فضا امکان اشتراک در اعضایشان را داشته باشند،
+    آنگاه تعداد اعضای فضای حالت کل برابر است با :
+    $$|A_1 \cup	A_2| = |A_1| + |A_2| - |A_1 \cap A_2|$$
+\end{DEFINITION}
+
+\NOTE{همانطور که در توضیحات مربوط به اصل جمع نیز گفته شد، آن اصل
+فقط زمانی قابل استفاده است که حالات مختلف انجام یک عمل از دو مسیر،
+اشتراکی نداشته باشند. این اصل برای رفع این محدودیت ارائه شده است.
+منطق این اصل بسیار ساده است. اگر حالتی از انجام کار، در دو مسیر مشترک باشد،
+اگر از اصل جمع استفاده کنیم، این حالت دو بار شمرده می‌شود. برای حل این ضعف،
+به سادگی، این تعداد را یکبار از نتیجه کل کم می‌کنیم تا به تعداد حالات یکتا برسیم.}
+
+\begin{THEOREM}
+    \p
+    \FOCUSEDON{تعمیم اصل شمول و عدم شمول}
+     را می‌توان به شکل زیر نوشت:
+    $$|\bigcup\limits_{i=1}^n A_i| = \sum\limits_{k=1}^n (-1)^{k+1} (\sum\limits_{1 \leq i_1 < \dots < i_k \leq n} |\bigcap\limits_{j \in \{i_1,...,i_k\}} A_j|)$$
+\end{THEOREM}
+\p
+تساوی بالا، معادل است با:
+$$|A_1 \cup A_2 \cup \dots \cup A_n| = |A_1| + |A_2| + \dots |A_n|$$
+$$- |A_1 \cap A_2| - |A_1 \cap A_3| - \dots - |A_1 \cap A_n| - |A_2 \cap A_3| \dots |A_{n-1} \cap A_n|$$
+$$+ |A_1 \cap A_2 \cap A_3| + |A_1 \cap A_2 \cap A_4| + \dots |A_{n-2} \cap A_{n-1} \cap A_{n}|$$
+$$\dots$$
+$$+ (-1)^{n+1} |A_1 \cap A_2 \cap \dots \cap A_n|$$
+
+\subfile{./example1.tex}
+\subfile{./example2.tex}
+\subfile{./example3.tex}
+\subfile{./example4.tex}
+\subfile{./example5.tex}
+\subfile{./example6.tex}
+
+\subfile{./Derangement/body.tex}

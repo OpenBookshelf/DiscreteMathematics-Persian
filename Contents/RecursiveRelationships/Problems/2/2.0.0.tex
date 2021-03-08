@@ -1,0 +1,39 @@
+\p
+  تابع مولد $G(x)$ را به شکل زیر تعریف می‌کنیم:\\
+        \begin{center}
+            $G(x) = \sum_{n = 0}^{\infty} h_nx^n$
+        \end{center}
+        ابتدا $h_0$ را از روی رابطه به دست می‌آوریم:\\
+        \begin{center}
+            $h_1 = 1 = 2h_0 + 1 \Rightarrow h_0 = 0$
+        \end{center}
+        طرفین رابطه‌ی بازگشتی را در $x^n$ ضرب می‌کنیم و سیگما می‌گیریم:\\
+        \begin{center}
+            $h_n = 2h_{n-1} + 1$ 
+            \medbreak
+            $\sum_{n = 1}^{\infty} h_nx^n = \sum_{n = 1}^{\infty} (2h_{n-1}+1)x^n$ 
+            \medbreak
+            $G(x) - h_0 = 2\sum_{n = 1}^{\infty} h_{n-1}x^n + \sum_{n = 1}^{\infty}x^n$
+            \medbreak
+            $G(x) = 2x\sum_{n = 1}^{\infty} h_{n-1}x^{n-1} + x\sum_{n = 0}^{\infty}x^n$
+            \medbreak
+            $G(x) = 2x\sum_{n = 0}^{\infty} h_{n}x^{n} + x\frac{1}{1 - x}$
+            \medbreak
+            $G(x) = 2xG(x) + \frac{x}{1 - x}$
+            \medbreak
+            $G(x)(1 - 2x) = \frac{x}{1 - x}$
+            \medbreak
+            $G(x) = \frac{x}{(1 - x)(1 - 2x)}$
+        \end{center}
+        پس از تفکیک کسر داریم:\\
+        \begin{center}
+            $G(x) = \frac{-1}{1 - x} + \frac{1}{1 - 2x}$
+            \medbreak
+            $G(x) = -\sum_{n = 0}^{\infty} x^n + \sum_{n = 0}^{\infty} 2^nx^n$
+            \medbreak
+            $G(x) = \sum_{n = 0}^{\infty} (2^n - 1)x^n$
+        \end{center}
+        طبق تعریفی که در ابتدای سوال از تابع مولد ارائه دادیم، ضریب $x^n$ همان $h_n$ است
+        که در اینجا برابر
+        $2^n - 1$
+        می‌باشد.

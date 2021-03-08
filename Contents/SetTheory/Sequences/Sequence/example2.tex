@@ -1,0 +1,32 @@
+\begin{PROBLEM}
+    \p
+    مجموعه
+    $S$
+    به صورت زیر مشخص شده است. جمله عمومی دنباله‌ای را بیابید که مجموعه‌ی برد آن، هم‌ارز مجموعه S باشد.
+    \begin{enumerate}
+        \item
+        $1 \in S$
+            \p
+        \item
+        $\forall k \in \mathbb{N} : k \in S \Rightarrow (k + 4) \in S$
+            \p
+        \item
+        هیچ عضوی در
+        $S$
+        وجود ندارد که از قانون (آ) یا (ب) به دست نیامده باشد.
+    \end{enumerate}
+	
+    \SOLUTION{
+        \p
+        $$1 \in S \Rightarrow 5 \in S \Rightarrow 9 \in S \Rightarrow \ldots$$
+        $$S = \{1, 5, 9, 13, 17, \ldots\}$$
+        دنباله‌ی $a_n$ را برای پاسخ به مسئله به صورت زیر تعریف می‌کنیم:
+        $$a_1 = 1$$
+        $$a_2 = a_1 + 4$$
+        $$a_3 = a_2 + 4$$
+        $$\vdots$$
+        $$a_n = a_{n-1} + 4$$
+        $$\Downarrow$$
+        $$a_n = 1 + 4(n - 1) = 4n - 3$$
+        }
+\end{PROBLEM}

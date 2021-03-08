@@ -1,0 +1,34 @@
+\begin{PROBLEM}
+    \p
+    تعداد رشته‌های به طول $n$ از حروف 
+    $a, b, c$
+    که در آن‌ها تعداد $a$ و تعداد $b$ فرد باشند را بیابید. 
+
+    \SOLUTION{
+        \p
+        برای هر حرف یک تابع مولد نمایی در نظر می‌گیریم.
+        \begin{enumerate}
+            \item 
+            برای حرف $c$ محدودیتی نداریم:
+                $$C(x) = \sum_{n = 0}^{\infty} \frac{x^n}{n!} = e^x$$
+
+            \item 
+            برای حروف $a$ و $b$ که باید فرد بار آمده باشند:
+                $$A(x) = B(x) = \sum_{n = 0}^{\infty} \frac{x^{2n + 1}}{(2n + 1)!}
+                = \frac{e^x - e^{-x}}{2}
+                = sinh(x)$$
+        \end{enumerate}
+        \p
+        بنابراین، تابع مولد نهایی برابر است با
+            $$A(x)B(x)C(x) = (\frac{e^x - e^{-x}}{2})(\frac{e^x - e^{-x}}{2})e^x$$
+            $$= (\frac{e^x - e^{-x}}{2})^2e^x$$
+            $$= (\frac{e^{2x} - 2e^{x - x} + e^{-2x}}{4})e^x$$
+            $$= \frac{e^{3x} - 2e^x + e^{-x}}{4}$$
+            $$= \frac{1}{4}\sum_{n = 0}^{\infty} \frac{(3x)^n}{n!} - \frac{1}{2}\sum_{n = 0}^{\infty} \frac{x^n}{n!} + \frac{1}{4}\sum_{n = 0}^{\infty}\frac{(-1)^nx^n}{n!}$$
+            $$= \sum_{n = 0}^{\infty} (\frac{3^n - 2 + (-1)^n}{4})\frac{x^n}{n!}$$
+
+        \p
+        پس پاسخ نهایی برابر خواهد بود با:
+            $$\frac{3^n - 2 + (-1)^n}{4}$$
+    }
+\end{PROBLEM}

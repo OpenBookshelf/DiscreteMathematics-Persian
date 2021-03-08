@@ -1,0 +1,23 @@
+ فرض کنید $A$ مجموعه مقسوم علیه‌های
+        $10 ^ {60} = 2^{60}\times5^{60}$
+        ، $B$ مجموعه مقسوم علیه‌های 
+        $20^{50} = 2^{100}\times5^{50}$
+        و $C$ مجموعه مقسوم علیه‌های
+        $30^{40} = 2^{40}\times3^{40}\times5^{40}$
+        باشد. جواب مسئله برابر است با
+        $|A \cup B \cup C|$ \\
+        
+        \begin{center}
+            $|C| = 41^3$  $|B| = 101\times51$  $|A| = 61^2$  \medbreak
+        
+             $|B \cap C| = 41^2$    $|A \cap C| = 41^2$   $|A \cap B| = 61\times51$ \medbreak
+             
+             $|A \cap B \cap C| = 41^2$ \\
+        \end{center}
+        طبق اصل شمول و عدم شمول داریم:\\
+        \begin{center}
+            $|A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |A \cap C| - |B \cap C| + |A \cap B \cap C|$
+            \medbreak
+            
+            $|A \cup B \cup C| = 61^2 + 101\times51 + 41^3 - 61\times51 - 41^2 - 41^2 + 41^2 = 73001$
+        \end{center}

@@ -1,0 +1,33 @@
+\EPROBLEM
+\p
+اتحاد زیر را ثابت کنید.
+\begin{align*}
+\sum_{i=k}^{n} {\binom{i}{k}} = \binom{n+1}{k+1}
+\end{align*}
+  
+\EWSOLUTION{
+  \[A=\sum_{i=k}^{n} {\binom{i}{k}}\]
+  \[=\sum_{i=k}^{n} {\binom{i+1}{k+1}-\binom{i}{k+1}}\]
+  \[=\sum_{i=k}^{n} {\binom{i+1}{k+1}}-\sum_{i=k}^{n} {\binom{i}{k+1}}\]
+  \[=\binom{n+1}{k+1}+\sum_{i=k}^{n-1} {\binom{i+1}{k+1}}-(0+\sum_{i=k+1}^{n} {\binom{i}{k+1}})\]
+  \[=\binom{n+1}{k+1}+\sum_{i=k}^{n-1} {\binom{i+1}{k+1}}-\sum_{i=k}^{n-1} {\binom{i+1}{k+1}}=\binom{n+1}{k+1}\]
+}
+
+\NOTE{بهتر است به روابط و اتحادهای مورد استفاده و منبع معتبر آن‌ها ‌اشاره شود.
+مخصوصا زمانی که روابط مورد استفاده، زیاد شناخته شده نیستند (در این پاسخ، رابطه‌ی پاسکال استفاده شده که شناخته شده است).
+به عنوان منبع، اسم اتحاد هم کافی است.}
+
+\ESOLUTION{
+  \p
+  طبق اتحاد پاسکال داریم:
+
+  $$ \binom{n}{k}+\binom{n}{k+1}=\binom{n+1}{k+1}$$
+
+  پس طبق این اتحاد می‌توان نوشت:
+
+  \[\sum_{i=k}^{n} {\binom{i}{k}}\]
+  \[=\sum_{i=k}^{n} {\binom{i+1}{k+1}-\binom{i}{k+1}}\]
+  \[=\sum_{i=k}^{n} {\binom{i+1}{k+1}}-\sum_{i=k}^{n} {\binom{i}{k+1}}\]
+  \[=\binom{n+1}{k+1}+\sum_{i=k}^{n-1} {\binom{i+1}{k+1}}-(0+\sum_{i=k+1}^{n} {\binom{i}{k+1}})\]
+  \[=\binom{n+1}{k+1}+\sum_{i=k}^{n-1} {\binom{i+1}{k+1}}-\sum_{i=k}^{n-1} {\binom{i+1}{k+1}}=\binom{n+1}{k+1}\]  
+}

@@ -1,0 +1,69 @@
+	\p
+جدول
+\ref{tab:table1}
+حاوی توابع مولد مربوط به برخی دنباله‌های معروف است که در حل مسائل،
+بسیار کارا خواهند بود.
+
+\begin{center}
+  \small
+  \begin{longtable}{||c|c||}
+    \caption{توابع مولد پرکاربرد}\label{tab:table1} \\
+    \hline
+    \hline
+    \textbf{$G(x)$} & \textbf{$a_k$} \\
+    \hline
+    \hline
+    $(1 + x)^n = \sum\limits_{k=0}^{n}C(n, k)x^k$ & $C(n, k)$ \\
+    \tiny{$= 1 + C(n, 1)x + C(n, 2)x^2 + \cdots + x^n$} & \\
+    \hline
+    $(1 + ax)^n = \sum\limits_{k=0}^{n}C(n, k)a^kx^k$ & $C(n, k)a^k$ \\
+    \tiny{$= 1 + C(n, 1)ax + C(n, 2)a^2x^2 + \cdots + a^nx^n$} & \\
+    \hline
+    $(1 + x^r)^n = \sum\limits_{k=0}^{n}C(n, k)x^{rk}$ &
+    $\begin{cases}
+      C(n, k/r), & \text{if}\: r|k \\
+      0,         & \text{o.w.}
+    \end{cases}$ \\ 
+    \tiny{$= 1 + C(n, 1)x^r + C(n, 2)x^{2r} + \cdots + x^{rn}$} &\\
+    \hline       
+    $\frac{1-x{n+1}}{1-x} = \sum\limits_{k=0}^{n}x^k$ &
+    $\begin{cases}
+      1, & \text{if}\: k \leq n \\
+      0, & \text{o.w.}
+    \end{cases}$ \\
+    \tiny{$= 1 + x + x^2 + \cdots + x^n$} &\\
+    \hline
+    $\frac{1}{1-x} = \sum\limits_{k=0}^{\infty}x^k$ & $1$ \\
+    \tiny{$= 1 + x + x^2 + \cdots$} & \\
+    \hline
+    $\frac{1}{1-ax} = \sum\limits_{k=0}^{\infty}a^kx^k$ & $a^k$ \\
+    \tiny{$= 1 + ax + a^2x^2 + \cdots$} & \\
+    \hline
+    $\frac{1}{1-x^r} = \sum\limits_{k=0}^{\infty}x^{rk}$ & $
+    \begin{cases}
+      1, & \text{if}\: r|k \\
+      0, & \text{o.w.}
+    \end{cases}$ \\
+    \tiny{$= 1 + x^r + x^{2r} + \cdots$} &\\
+    \hline
+    $\frac{1}{(1-x)^2} = \sum\limits_{k=0}^{\infty}(k+1)x^k$ & $k + 1$ \\
+    \tiny{$= 1 + 2x + 3x^2 + \cdots$} & \\
+    \hline
+    $\frac{1}{(1-x)^n} = \sum\limits_{k=0}^{\infty}C(n + k - 1, k)x^k$ & $C(n + k - 1, k)$ \\
+    \tiny{$= 1 + C(n, 1)x + C(n + 1, 2)x^2 + \cdots$} & $= C(n + k - 1, n - 1)$ \\
+    \hline
+    $\frac{1}{(1+x)^n} = \sum\limits_{k=0}^{\infty}C(n + k - 1, k)(-1)^kx^k$ & $(-1)^kC(n + k - 1, k)$ \\
+    \tiny{$= 1 - C(n, 1)x + C(n + 1, 2)x^2 - \cdots$} & $= (-1)^kC(n + k - 1, n - 1)$ \\
+    \hline
+    $\frac{1}{(1-ax)^n} = \sum\limits_{k=0}^{\infty}C(n + k - 1, k)a^kx^k$ & $C(n + k - 1, k)a^k$ \\
+    \tiny{$= 1 + C(n, 1)ax + C(n + 1, 2)a^2x^2 + \cdots$} & $= C(n + k - 1, n - 1)a^k$ \\
+    \hline
+    $e^x = \sum\limits_{k=0}^{\infty}\frac{x^k}{k!}$ & $1/k!$ \\
+    \tiny{$= 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots$} & \\
+    \hline
+    $ln(1 + x) = \sum\limits_{k=1}^{\infty}\frac{(-1)^k+1}{k}x^k$ & $(-1)^{k+1}/k$ \\
+    \tiny{$= x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \cdots$} & \\
+    \hline
+    \hline
+  \end{longtable}
+\end{center}
