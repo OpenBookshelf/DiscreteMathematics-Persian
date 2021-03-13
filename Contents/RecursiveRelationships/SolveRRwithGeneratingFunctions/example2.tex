@@ -1,0 +1,23 @@
+\begin{PROBLEM}
+    \p
+    تابع مولد دنباله‌ بازگشتی 
+    $a_n=a_{n-1}+2a_{n-2}$
+    را در صورتی که
+    $a_0=2$
+    و
+    $a_1=7$
+    باشد به دست آورید.
+    \SOLUTION{
+        \p
+        تابع مولد
+        $ g(n) = \sum^{\infty}_{n=0}a_nx^n $
+        را تعریف می‌کنیم.
+
+        $$ g(n) = \sum^{\infty}_{n=0}a_nx^n = a_0 + a_1x + \sum^{\infty}_{n=2}(a_{n-1}+2a_{n-2})x^n = $$
+        $$ a_0 + a_1x + \sum^{\infty}_{n=2}a_{n-1}x^n + \sum^{\infty}_{n=2}2a_{n-2}x^n = $$
+        $$ a_0 + a_1x + x\sum^{\infty}_{n=2}a_{n-1}x^{n-1} + 2x^2\sum^{\infty}_{n=2}a_{n-2}x^{n-2} = $$
+        $$ a_0 + a_1x + x\sum^{\infty}_{n=1}a_nx^n + 2x^2\sum^{\infty}_{n=0}a_nx^n = $$
+        $$ 2 + 7x + x(g(n) - a_0) + 2x^2g(n) = 2 + 5x + xg(n) + 2x^2g(n) $$
+        $$ \rightarrow g(n) = \frac{2+5x}{1+x+2x^2} $$
+    }
+\end{PROBLEM}
