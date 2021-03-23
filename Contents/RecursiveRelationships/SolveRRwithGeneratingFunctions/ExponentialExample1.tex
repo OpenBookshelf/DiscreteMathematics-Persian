@@ -1,0 +1,49 @@
+\begin{PROBLEM}
+    \p
+    با استفاده از توابع مولد نمایی پاسخ صریح رابطه بازگشتی
+    $$a_{n+1} = (n+1)(a_n-n+1)$$
+    و
+    $a_0 = 1 , n \geq 0$
+    بدست آورید.
+    \SOLUTION{
+        \p
+        تابع مولد نمایی $G(x)$ را به شکل زیر تعریف می‌کنیم:
+        
+        $$G(x) = \sum_{n = 0}^{\infty} a_n \frac{x^n}{n!}$$
+
+        طرفین رابطه‌ی بازگشتی را در $\frac{x^{n+1}}{(n+1)!}$ ضرب می‌کنیم و سیگما می‌گیریم:
+        
+        از آنجایی که
+        $ n  \geq 0 $
+        پس حدود سیگما را از صفر تا بی‌نهایت قرار می‌دهیم.
+        
+        \begin{center}
+            \medbreak
+            $\sum_{n = 0}^{\infty} a_{n+1}\frac{x^{n+1}}{(n+1)!} = \sum_{n = 0}^{\infty} a_n\frac{x^{n+1}}{n!} - \sum_{n = 0}^{\infty} (n-1)\frac{x^{n+1}}{n!}$ 
+            \medbreak
+            $\sum_{n = 1}^{\infty} a_{n}\frac{x^n}{n!} = x\sum_{n = 0}^{\infty} a_n\frac{x^n}{n!} - \sum_{n = 0}^{\infty} n\frac{x^{n+1}}{n!} + \sum_{n = 0}^{\infty} \frac{x^{n+1}}{n!}$ 
+            \medbreak
+            $a_0 = 1 $
+            و
+            $G(x) - a_0 = xG(x) - x^2e^x + xe^x$
+            \medbreak
+            $G(x) = \frac{1}{1-x} + xe^x$
+            \medbreak
+            $G(x) = \sum_{n = 0}^{\infty} x^{n} + \sum_{n = 0}^{\infty} \frac{x^{n+1}}{n!}$
+        \end{center}
+       از آنجایی که تابع مولد نمایی نوشتیم، به دنبال ضریب جمله
+       $\frac{x^n}{n!}$
+       باید بگردیم. در
+       $\sum_{n = 0}^{\infty} x^{n}$
+       ضریب 
+       $\frac{x^n}{n!}$
+       برابر
+       $n!$
+        است و همین طور ضریب برای طرف دوم 
+        نیز
+        $n$
+        است.
+        پس
+        $a_n = n! + n$
+    }
+\end{PROBLEM}
