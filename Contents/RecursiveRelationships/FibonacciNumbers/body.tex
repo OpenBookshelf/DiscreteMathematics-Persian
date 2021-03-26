@@ -1,0 +1,34 @@
+\SECTION{دنباله و اعداد فیبوناچی}
+فیبوناچی، ریاضیدان ایتالیایی قرن ۱۳ ‌مسئله‌ی معروف رشد جمعیت خرگوش‌ها را در کتاب خود مطرح کرده است.
+این مسئله را در مثال زیر بیان می‌کنیم.
+
+\subfile{./rabbitsProblem.tex}
+
+\begin{DEFINITION}
+    به اعدادی که در رابطه بازگشتی
+  \[\begin{cases}
+      f_{n}=f_{n-1} + f_{n-2} & n\geq 2 \\
+      
+      f_0=1 ,
+      f_1 = 1
+  \end{cases}
+  \]
+  صدق می کنند,
+  \FOCUSEDON{  دنباله‌ فیبوناچی}
+    می‌گوییم.
+\end{DEFINITION}
+
+
+\subfile{./example1.tex}
+
+\begin{THEOREM}
+    \p
+    \FOCUSEDON{تابع مولد دنباله فیبوناچی}
+    برابر است با:
+    $$F(x) = \frac{1}{1 - x - x^2}$$
+    \FOCUSEDON{فرمول صریح فیبوناچی}
+    برابر است با:
+    $$f_n = \frac{1}{\sqrt{5}}((\frac{-1 + \sqrt{5}}{2})^{n} - (\frac{1 - \sqrt{5}}{2})^{n})$$
+\end{THEOREM}
+
+\subfile{./example2.tex}
