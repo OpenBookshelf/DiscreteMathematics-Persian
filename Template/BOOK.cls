@@ -130,7 +130,7 @@
         \node at (current page.north west) {
             \begin{tikzpicture}[remember picture,overlay]
                 \node[anchor=north west,inner sep=0pt] at (0,0) {
-                    \includegraphics[width=\paperwidth]{#1}
+                    \includegraphics[width=\paperwidth, height=0.5\paperheight]{#1}
                 };
             \end{tikzpicture}
         };
@@ -206,11 +206,16 @@
     colframe=factblue!50]}
 {\end{tcolorbox}}
 
+
+% refrence
+%--------------------------------------------------------------------------
+\newcommand{\REF}[1]{{\includegraphics[height=5mm]{Template/RefrenceIcons/#1.png}}}
+
 % problem styling
 %--------------------------------------------------------------------------
 \newcounter{problem}[chapter]
 
-\newenvironment{PROBLEM}[1][]
+\newenvironment{PROBLEM}[1][\REF{?}]
 {\begin{tcolorbox}[
     enhanced jigsaw,
     breakable,
