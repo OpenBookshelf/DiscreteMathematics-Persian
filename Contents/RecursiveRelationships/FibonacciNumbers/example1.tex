@@ -1,5 +1,4 @@
 \begin{PROBLEM}
-    \p
     \begin{enumerate}
     \item
     تابع مولد دنباله فیبوناچی را بیابید.
@@ -9,7 +8,6 @@
     \end{enumerate}
     
     \SOLUTION{
-        \p
     \begin{enumerate}
 
     \item
@@ -21,14 +19,12 @@
                     طرفین رابطه بازگشتی فیبوناچی را در $x^{n+2}$ ضرب می‌کنیم و سیگما می گیریم:
                     
 
-                    \begin{center}
-                        $f_{n + 2} = f_{n + 1} + f_{n}$ \medbreak
-                        $\sum_{n = 0}^{\infty} f_{n+2}x^{n+2} = \sum_{n = 0}^{\infty} f_{n+1}x^{n+2} + \sum_{n = 0}^{\infty} f_{n}x^{n+2}$    \medbreak
-                        $(F(x) - f_0x^0 - f_1x^1) = x(F(x) - f_0x^0) + x^2F(x)$\medbreak
-                        $F(x) - 1 - x = xF(x) - x + x^2F(x)$\medbreak
-                        $F(x)(1 - x - x^2) = 1$\medbreak
-                        $F(x) = \frac{1}{1 - x - x^2}$
-                    \end{center}
+                        $$f_{n + 2} = f_{n + 1} + f_{n}$$
+                        $$\sum_{n = 0}^{\infty} f_{n+2}x^{n+2} = \sum_{n = 0}^{\infty} f_{n+1}x^{n+2} + \sum_{n = 0}^{\infty} f_{n}x^{n+2}$$
+                        $$(F(x) - f_0x^0 - f_1x^1) = x(F(x) - f_0x^0) + x^2F(x)$$
+                        $$F(x) - 1 - x = xF(x) - x + x^2F(x)$$
+                        $$F(x)\times(1 - x - x^2) = 1$$
+                        $$F(x) = \frac{1}{1 - x - x^2}$$
     \item
                     برای به دست آوردن رابطه صریح فیبوناچی، ابتدا تابع مولد آن را به کسر‌های جزئی تجزیه می‌کنیم.
                     
@@ -38,32 +34,26 @@
                     را به دست می‌آوریم:
                     
 
-                    \begin{center}
-                        $\alpha = \frac{-1 - \sqrt{5}}{2}$ 
+                        $$\alpha = \frac{-1 - \sqrt{5}}{2}$$
                         
 
-                        $\beta = \frac{-1 + \sqrt{5}}{2}$
-                    \end{center}
-                    \begin{center}
-                        $\frac{A}{x - \alpha} + \frac{B}{x - \beta} = \frac{1}{1 - x - x^2}$ 
+                        $$\beta = \frac{-1 + \sqrt{5}}{2}$$
+                        $$\frac{A}{x - \alpha} + \frac{B}{x - \beta} = \frac{1}{1 - x - x^2}$$
                         
 
                         
                         $A = \frac{1}{\alpha - \beta} = -\frac{1}{\sqrt{5}}, B = \frac{1}{\beta - \alpha} = \frac{1}{\sqrt{5}}$
                         
 
-                    \end{center}
                     بنابراین داریم:
                     
 
-                    \begin{center}
-                        $\frac{1}{1 - x - x^2} = \frac{\frac{-1}{\sqrt{5}}}{x - \alpha} + \frac{\frac{1}{\sqrt{5}}}{x - \beta} 
-                        = \frac{1}{\sqrt{5}}(\frac{1}{\alpha - x} - \frac{1}{\beta - x}) 
-                        = \frac{1}{\sqrt{5}}(\frac{1}{ \frac{\alpha}{\alpha}(\alpha - x)} - \frac{1}{ \frac{\beta}{\beta}(\beta - x)})
-                        = \frac{1}{\sqrt{5}}(\frac{1}{\alpha}\frac{1}{1 - \frac{x}{\alpha} } - \frac{1}{\beta}\frac{1}{1 - \frac{x}{\beta}}) 
-                        = \frac{1}{\sqrt{5}}(\frac{1}{\alpha}\sum_{n = 0}^{\infty} (\frac{1}{\alpha})^nx^n - \frac{1}{\beta}\sum_{n = 0}^{\infty} (\frac{1}{\beta})^nx^n)
-                        = \frac{1}{\sqrt{5}}(\sum_{n = 0}^{\infty} (\frac{1}{\alpha}^{n+1} - \frac{1}{\beta}^{n + 1})x^n)$
-                    \end{center}
+                        $$\frac{1}{1 - x - x^2} = \frac{\frac{-1}{\sqrt{5}}}{x - \alpha} + \frac{\frac{1}{\sqrt{5}}}{x - \beta}$$
+                        $$= \frac{1}{\sqrt{5}}(\frac{1}{\alpha - x} - \frac{1}{\beta - x})$$
+                        $$= \frac{1}{\sqrt{5}}(\frac{1}{ \frac{\alpha}{\alpha}(\alpha - x)} - \frac{1}{ \frac{\beta}{\beta}(\beta - x)})$$
+                        $$= \frac{1}{\sqrt{5}}(\frac{1}{\alpha}\frac{1}{1 - \frac{x}{\alpha} } - \frac{1}{\beta}\frac{1}{1 - \frac{x}{\beta}})$$
+                        $$= \frac{1}{\sqrt{5}}(\frac{1}{\alpha}\sum_{n = 0}^{\infty} (\frac{1}{\alpha})^nx^n - \frac{1}{\beta}\sum_{n = 0}^{\infty} (\frac{1}{\beta})^nx^n)$$
+                        $$= \frac{1}{\sqrt{5}}(\sum_{n = 0}^{\infty} (\frac{1}{\alpha}^{n+1} - \frac{1}{\beta}^{n + 1})x^n)$$
                     از طرفی می‌دانیم:
                     
 
