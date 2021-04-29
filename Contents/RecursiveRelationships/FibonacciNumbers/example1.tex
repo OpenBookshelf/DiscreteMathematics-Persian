@@ -1,32 +1,30 @@
-\begin{PROBLEM}
+\begin{PROBLEM}[رابطه صریح جمله عمومی دنباله فیبوناچی]
+    \p
     \begin{enumerate}
     \item
     تابع مولد دنباله فیبوناچی را بیابید.
+        \SOLUTION{
+            \p
+            تابع مولد متناظر با دنباله فیبوناچی را به شکل زیر تعریف می‌کنیم:
+                    
 
+                    
+            $$F(x) = \sum_{n = 0}^{\infty} f_nx^n$$
+        طرفین رابطه بازگشتی فیبوناچی را در $x^{n+2}$ ضرب می‌کنیم و جمع می‌زنیم:
+        
+
+            $$f_{n + 2} = f_{n + 1} + f_{n}$$
+            $$\sum_{n = 0}^{\infty} f_{n+2}x^{n+2} = \sum_{n = 0}^{\infty} f_{n+1}x^{n+2} + \sum_{n = 0}^{\infty} f_{n}x^{n+2}$$
+            $$(F(x) - f_0x^0 - f_1x^1) = x(F(x) - f_0x^0) + x^2F(x)$$
+            $$F(x) - 1 - x = xF(x) - x + x^2F(x)$$
+            $$F(x)\times(1 - x - x^2) = 1$$
+            $$F(x) = \frac{1}{1 - x - x^2}$$
+        }
     \item	
-            با استفاده از قسمت قبلی، فرمول صریح فیبوناچی را بیابید.
-    \end{enumerate}
-    
-    \SOLUTION{
-    \begin{enumerate}
-
-    \item
-                    تابع مولد متناظر با دنباله فیبوناچی را به شکل زیر تعریف می‌کنیم:
-                    
-
-                    
-                        $$F(x) = \sum_{n = 0}^{\infty} f_nx^n$$
-                    طرفین رابطه بازگشتی فیبوناچی را در $x^{n+2}$ ضرب می‌کنیم و سیگما می گیریم:
-                    
-
-                        $$f_{n + 2} = f_{n + 1} + f_{n}$$
-                        $$\sum_{n = 0}^{\infty} f_{n+2}x^{n+2} = \sum_{n = 0}^{\infty} f_{n+1}x^{n+2} + \sum_{n = 0}^{\infty} f_{n}x^{n+2}$$
-                        $$(F(x) - f_0x^0 - f_1x^1) = x(F(x) - f_0x^0) + x^2F(x)$$
-                        $$F(x) - 1 - x = xF(x) - x + x^2F(x)$$
-                        $$F(x)\times(1 - x - x^2) = 1$$
-                        $$F(x) = \frac{1}{1 - x - x^2}$$
-    \item
-                    برای به دست آوردن رابطه صریح فیبوناچی، ابتدا تابع مولد آن را به کسر‌های جزئی تجزیه می‌کنیم.
+            با استفاده از قسمت قبلی، رابطه صریح جمله عمومی دنباله فیبوناچی را بیابید.
+            \SOLUTION{
+                \p
+                برای به دست آوردن رابطه صریح فیبوناچی، ابتدا تابع مولد آن را به کسر‌های جزئی تجزیه می‌کنیم.
                     
 
                     ریشه‌های
@@ -42,7 +40,7 @@
                         
 
                         
-                        $A = \frac{1}{\alpha - \beta} = -\frac{1}{\sqrt{5}}, B = \frac{1}{\beta - \alpha} = \frac{1}{\sqrt{5}}$
+                        ‌‌$$A = \frac{1}{\alpha - \beta} = -\frac{1}{\sqrt{5}}, B = \frac{1}{\beta - \alpha} = \frac{1}{\sqrt{5}}$$
                         
 
                     بنابراین داریم:
@@ -53,7 +51,7 @@
                         $$= \frac{1}{\sqrt{5}}(\frac{1}{ \frac{\alpha}{\alpha}(\alpha - x)} - \frac{1}{ \frac{\beta}{\beta}(\beta - x)})$$
                         $$= \frac{1}{\sqrt{5}}(\frac{1}{\alpha}\frac{1}{1 - \frac{x}{\alpha} } - \frac{1}{\beta}\frac{1}{1 - \frac{x}{\beta}})$$
                         $$= \frac{1}{\sqrt{5}}(\frac{1}{\alpha}\sum_{n = 0}^{\infty} (\frac{1}{\alpha})^nx^n - \frac{1}{\beta}\sum_{n = 0}^{\infty} (\frac{1}{\beta})^nx^n)$$
-                        $$= \frac{1}{\sqrt{5}}(\sum_{n = 0}^{\infty} (\frac{1}{\alpha}^{n+1} - \frac{1}{\beta}^{n + 1})x^n)$$
+                        $$= \frac{1}{\sqrt{5}}(\sum_{n = 0}^{\infty} ((\frac{1}{\alpha})^{n+1} - (\frac{1}{\beta})^{n + 1})x^n)$$
                     از طرفی می‌دانیم:
                     
 
@@ -69,7 +67,10 @@
                     و 
                     $\beta$
                     مقادیر ثابتی هستند که بالاتر به دست آوردیم.
+
+            }
     \end{enumerate}
 
-    }
+
+  
 \end{PROBLEM}
