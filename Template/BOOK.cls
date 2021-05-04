@@ -31,12 +31,13 @@
 \usepackage{amsfonts}
 \usepackage{tikz}
 \usepackage{import}
-\usepackage[colorlinks, breaklinks=true]{hyperref}
+\usepackage{hyperref}
 \usepackage{parskip}
 \usepackage{longtable}
 \usepackage{amsmath}
 \usepackage{pbox}
 \usepackage{amssymb}
+\usepackage{xifthen}
 
 \RequirePackage[extrafootnotefeatures]{xepersian}
 \settextfont[
@@ -61,10 +62,19 @@
 
 \renewcommand{\theenumi}{\Alph{enumi}}
 
+
+\definecolor{darkblue}{RGB}{10,70,120}
+\hypersetup{
+    colorlinks=true,
+    breaklinks=true,
+    linkcolor=darkblue,
+    urlcolor=blue,
+}
+
 % Colors
 %--------------------------------------------------------------------------
 \RequirePackage{xcolor}
-\definecolor{sectionblue}{RGB}{70,130,180}
+\definecolor{sectionblue}{RGB}{90,150,200}
 \definecolor{subsectionblue}{RGB}{100,160,200}
 \definecolor{extraorange}{RGB}{255,138,88}
 \definecolor{factblue}{RGB}{23,74,117}
@@ -141,7 +151,7 @@
     فصل \medskip{~\thechapter}
 
     {\Huge #2}
-    \addcontentsline{toc}{part}{\color{blue}{#2}}
+    \addcontentsline{toc}{part}{\Large{\textbf{#2}}}
     
     \vspace{1.5cm}
     \p
@@ -165,7 +175,7 @@
 %--------------------------------------------------------------------------
 \newcommand{\SUBSECTION}[1]{
     \subsection*{\hspace{7mm}\color{subsectionblue}{#1}}
-    \addcontentsline{toc}{subsection}{#1}
+    \addcontentsline{toc}{subsection}{\small{#1}}
     \vspace{-12mm}
     {\textcolor{subsectionblue}{\noindent\rule{0.4\textwidth}{0.8pt}}}
 }
@@ -209,13 +219,22 @@
 
 % refrence
 %--------------------------------------------------------------------------
-\newcommand{\REF}[1]{{\includegraphics[height=5mm]{Template/RefrenceIcons/#1.png}}}
+\newcommand{\SREF}[1]{\hyperlink{#1}{‌\includegraphics[height=5mm]{Contents/Refrences/Icons/#1.png}‌}}
+
+\newcommand{\SOURCE}[1]{\hypertarget{#1}{\includegraphics[height=5mm]{Contents/Refrences/Icons/#1.png}}}
+
+% cross refrencing
+%--------------------------------------------------------------------------
+\newcommand{\REF}[2][]{\underline{\hyperlink{#2}{\ifthenelse{\isempty{#1}}{#2}{#1}}}}
+
+\newcommand{\TARGET}[2][]{\hypertarget{#2}{#1}}
+
 
 % problem styling
 %--------------------------------------------------------------------------
 \newcounter{problem}[chapter]
 
-\newenvironment{PROBLEM}[1][\REF{?}]
+\newenvironment{PROBLEM}[1][]
 {\begin{tcolorbox}[
     enhanced jigsaw,
     breakable,
@@ -246,6 +265,7 @@
     \solutionmark[#1]
     \vspace{2mm}
     \begin{itshape}
+        
         #2
     \end{itshape}
 }
