@@ -21,7 +21,7 @@
     ]{geometry}
 
 \usepackage{xcolor}
-\RequirePackage{graphicx}
+\RequirePackage{graphicx,wrapfig}
 \usepackage{enumitem}
 \usepackage[most]{tcolorbox}
 \setlength{\parindent}{4em}
