@@ -63,11 +63,11 @@
 \renewcommand{\theenumi}{\Alph{enumi}}
 
 
-\definecolor{darkblue}{RGB}{10,70,120}
+\definecolor{crossrefblue}{RGB}{10,70,120}
 \hypersetup{
     colorlinks=true,
     breaklinks=true,
-    linkcolor=darkblue,
+    linkcolor=crossrefblue,
     urlcolor=blue,
 }
 
@@ -77,14 +77,12 @@
 \definecolor{sectionblue}{RGB}{90,150,200}
 \definecolor{subsectionblue}{RGB}{100,160,200}
 \definecolor{extraorange}{RGB}{255,138,88}
-\definecolor{factblue}{RGB}{23,74,117}
+\definecolor{theoremblue}{RGB}{23,74,117}
 \definecolor{definitiongreen}{RGB}{21,122,81}
 \definecolor{extrayellow}{RGB}{255,185,88}
-\definecolor{tsgrey}{RGB}{200,200,200}
 \definecolor{solutiongreen}{rgb}{0.1,0.7,0.1}
-\definecolor{codegray}{rgb}{0.5,0.5,0.5}
-\definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+% \definecolor{codegray}{rgb}{0.5,0.5,0.5}
+% \definecolor{codepurple}{rgb}{0.58,0,0.82}
 
 
 % paragraph styling
@@ -212,20 +210,20 @@
     enhanced jigsaw,
     breakable,
     pad at break*=1mm,
-    colback=factblue!5,
-    colframe=factblue!50]}
+    colback=theoremblue!5,
+    colframe=theoremblue!50]}
 {\end{tcolorbox}}
 
 
 % refrence
 %--------------------------------------------------------------------------
-\newcommand{\SREF}[1]{\hyperlink{#1}{‌\includegraphics[height=5mm]{Contents/Refrences/Icons/#1.png}‌}}
+\newcommand{\REF}[1]{\hyperlink{#1}{‌\includegraphics[height=5mm]{Contents/Refrences/Icons/#1.png}‌}}
 
 \newcommand{\SOURCE}[1]{\hypertarget{#1}{\includegraphics[height=5mm]{Contents/Refrences/Icons/#1.png}}}
 
 % cross refrencing
 %--------------------------------------------------------------------------
-\newcommand{\REF}[2][]{\underline{\hyperlink{#2}{\ifthenelse{\isempty{#1}}{#2}{#1}}}}
+\newcommand{\CROSSREF}[2][]{\hyperlink{#2}{\ifthenelse{\isempty{#1}}{#2}{#1}(\includegraphics[height=2.5mm]{Template/images/back.png})}}
 
 \newcommand{\TARGET}[2][]{\hypertarget{#2}{#1}}
 
