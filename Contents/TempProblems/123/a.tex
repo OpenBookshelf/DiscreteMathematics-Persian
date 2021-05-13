@@ -1,0 +1,23 @@
+\p
+$a_n$:
+۲ فرد و
+$b_n$:
+۱ زوج ۲ فرد و
+$c_n$:
+۱ فرد ۲ زوج می‌باشند.
+$$0 \rightarrow a_{n-1}$$
+$$1 \rightarrow b_{n-1}$$
+$$2 \rightarrow c_{n-1}$$
+$$a_n = a_{n-1} + b_{n-1} + c_{n-1}$$
+$$b_n = b_{n-1} + a_{n-1} + 3^{n-1} - a_{n-1} - b_{n-1} - c_{n-1}$$
+$$\Rightarrow b_n = 3^{n-1} - c_{n-1}$$
+$$c_n = c_{n-1} + 3^{n-1} - a_{n-1} - b_{n-1} - c_{n-1} + a_{n-1}\Rightarrow$$
+$$[g_b(x) + g_c(x)](1 + x) = \frac{2x}{1 - 3x} \Rightarrow$$
+$$g_a(x) = xg_a(x) + x(g_b(x) + g_c(x)) \Rightarrow$$
+$$ g_a(x) = \frac{2x^2}{(1-x)(1-3x)} = \frac{x}{1 - 3x} - \frac{x}{1 - x}$$
+$$g_a(x) = x\sum_{i=0}^{\infty} (3x)^i - x\sum_{i=0}^{\infty} x^i \Rightarrow \sum_{i=0}^{\infty}x^{i+1}(3^i-1) \Rightarrow$$
+$$a_0 = 0$$
+$$a_1 = 0$$
+$$a_2 = 2$$
+$$a_n = 3^{n-1} - 1$$
+$$g_a(x) = \sum_{i=1}^{\infty}x^i(3^{i-1} - 1)$$

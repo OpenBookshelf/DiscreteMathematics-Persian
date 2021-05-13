@@ -1,0 +1,23 @@
+\p
+\begin{enumerate}
+\item
+$$a_n = a_{n-1} + 2$$
+$$a_0 = 1$$
+$$\sum_{n=1}^{\infty}a_nx^n = \sum_{n=1}^{\infty}a_{n-1}x^n + \sum_{n=1}^{\infty}2x^n$$
+$$g(x) - a_0 = xg(x) + 2(\frac{1}{1-x} - 1) \Rightarrow$$
+$$ g(x)(1 - x) = \frac{2}{1 - x} - 1 = \frac{1 + x}{1 - x}\Rightarrow g(x) = (1 + x)(1 - x)^{-2} \Rightarrow$$
+$$a_n = \binom{n+1}{n} + \binom{n}{n-1} = n + 1 + n \Rightarrow a_n = 2n + 1$$
+\item
+$$\sum_{n=2}^{\infty}a_nx^n = 3\sum_{n=2}^{\infty}a_{n-1}x^n - 2\sum_{n=2}^{\infty}a_{n-2}x^n + 2\sum_{n=2}^{\infty}x^n \Rightarrow$$
+$$ g(x) - a_1x - a_0 = 3(xg(x) - a_0)^x - 2(x^2g(x)) + \frac{2x^2}{1-x} \Rightarrow$$
+$$ g(x) - x - 1 = 3xg(x) - 3^x - 2x^2g(x) + \frac{2x^2}{1-x}\Rightarrow$$
+$$g(x)(1 - 3x + 2x^2) = 1 - 2x + \frac{2x^2}{1-x} \Rightarrow g(x) = \frac{1}{1-x} + \frac{2x^2}{(1-2x)(1-x)^2}\Rightarrow$$
+$$g(x) = \frac{1}{1-x} + \frac{A}{1 - 2x} + \frac{B}{1 - x} + \frac{C}{(1-x)^2}\Rightarrow$$
+$$A = 2, C = -2, B = 0$$
+$$g(x) = \frac{1}{1-x} + \frac{2}{1-2x} - \frac{2}{(1-x)^2} = \frac{2}{1-2x} - \frac{1 + x}{(1-x)^2} \Rightarrow$$
+$$ g(x) = 2(1-2x)^{-1} - (1+x)(1-x)^{-2}$$
+توان
+$x^n$
+در عبارت بالا برابر است با:
+$$2\times 2^n - \binom{n+1}{n} - \binom{n}{n-1} = 2^{n+1} - 2n - 1$$
+\end{enumerate}
