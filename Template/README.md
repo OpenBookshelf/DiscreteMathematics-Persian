@@ -552,7 +552,7 @@ source-name
 ---
 <!-- -------------------------------------------------------------------------------------------------- -->
 
-<img align="right" width="40%" src="./ReadmeContents/TARGET.png">
+<img align="right" width="20%" src="./ReadmeContents/TARGET.png">
 
 <code style="margin-right:3%;">
 \TARGET[what we see]{key}
@@ -582,7 +582,7 @@ key
 ---
 <!-- -------------------------------------------------------------------------------------------------- -->
 
-<img align="left" width="20%" src="./ReadmeContents/CROSSREF.png">
+<img align="left" width="40%" src="./ReadmeContents/CROSSREF.png">
 
 <code style="margin-left:3%;">
 \CROSSREF[what we see]{key}
