@@ -486,6 +486,125 @@ $X = \{x_1, x_2, x_3, \cdots, x_n\}$
 ---
 <!-- -------------------------------------------------------------------------------------------------- -->
 
+<img align="right" width="40%" src="./ReadmeContents/SOURCE.png">
+
+<code style="margin-right:3%;">
+\SOURCE{logo-name}
+</code>
+<br/>
+<code style="margin-right:3%;">
+\SOURCELINE{logo-name}{definition}
+</code>
+<br/>
+<code style="margin-right:3%;">
+\LRTSOURCELINE{logo-name}{definition}
+</code>
+
+<br/>
+
+<p align="right" style="margin-left:21%;">
+&#x202b;
+با این دستورات، یک منبع جدید تعریف می‌شود. دستور اول برای تعریف منبع کافیست.
+دستور دوم برای ساخت فهرست منابع استفاده می‌شود. دستور سوم هم‌ارز دستور دوم برای منابع با زبان‌های 
+چپ به راست است.
+لازم است یک لوگو متناظر در
+آدرس
+\lr{Contents/Refrences/Icons/logo-name.png}
+قرار گیرد.
+</p>
+
+```latex
+\LRTSOURCELINE{R}{
+    Kenneth H. Rosen, Discrete Mathematics and Its Applications, 7th Edition (1969)
+}
+\LRTSOURCELINE{Liber_Abaci}{
+    Leonardo of Pisa, Liber Abaci (1202)
+}
+\LRTSOURCELINE{Leonard_of_Pisa_and_the_New_Mathematics_of_the_Middle_Ages}{
+    Joseph Gies and Frances Gies, Leonard of Pisa and the New Mathematics of the Middle Ages (1969)
+}
+```
+
+---
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<img align="left" width="20%" src="./ReadmeContents/REF.png">
+
+<code style="margin-left:3%;">
+\REF{source-name}
+</code>
+
+<br/>
+
+<p align="right" style="margin-left:21%;">
+&#x202b;
+با این دستور می‌توان به یک منبع (source) از پیش تعیین شده ارجاع داد.
+source-name
+همان logo-name
+در source
+مقصود است.
+</p>
+
+```latex
+\begin{EXTRA}[./Leonardo.jpeg]{\REF{Leonard_of_Pisa_and_the_New_Mathematics_of_the_Middle_Ages} فیبوناچی }
+```
+
+---
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<img align="right" width="40%" src="./ReadmeContents/TARGET.png">
+
+<code style="margin-right:3%;">
+\TARGET[what we see]{key}
+</code>
+
+<br/>
+
+<p align="right" style="margin-left:21%;">
+&#x202b;
+با استفاده از این دستور، یک مقصد برای ارجاع داخلی تعریف می‌شود. از 
+key
+برای آدرس دادن به نقطه ارجاع دهنده استفاده می‌شود. عمدتاً نیازی به پر کردن بخش نمایشی نیست.
+</p>
+
+```latex
+\begin{DEFINITION}
+    \p
+    \FOCUSEDON{تابع مولد نمایی}\TARGET{تابع مولد نمایی}
+    نسخه‌ای تغییر یافته از تابع مولد است که
+    برای دنباله‌ی 
+    $a_{n}$
+    به صورت زیر تعریف می‌شود:
+      $$G(x)= a_{0} + a_{1}(\frac{x}{1!}) + a_{2}(\frac{x^{2}}{2!}) + ... = \sum\limits_{n=0}^{+\infty} a_{n}(\frac{x^{n}}{n!})$$
+\end{DEFINITION}
+```
+
+---
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+<img align="left" width="20%" src="./ReadmeContents/CROSSREF.png">
+
+<code style="margin-left:3%;">
+\CROSSREF[what we see]{key}
+</code>
+
+<br/>
+
+<p align="right" style="margin-left:21%;">
+&#x202b;
+با استفاده از این دستور، به یک Target ارجاع داخلی می‌دهیم.
+اگر قسمت نمایشی مقدار دهی نشود، از key بجای آن استفاده می‌شود.
+</p>
+
+```latex
+برای کمک گرفتن از توابع مولد در حل مسائل شمارشی که در آن‌ها ترتیب با اهمیت است،
+ساده‌تر است اگر از \CROSSREF{تابع مولد نمایی} استفاده شود.
+استفاده از این روش را با چند مثال نشان خواهیم داد.
+```
+
+---
+<!-- -------------------------------------------------------------------------------------------------- -->
+
 <img align="right" width="40%" src="./ReadmeContents/AFFILIATION.png">
 
 <code style="margin-right:3%;">

@@ -221,6 +221,17 @@
 
 \newcommand{\SOURCE}[1]{\hypertarget{#1}{\includegraphics[height=5mm]{Contents/Refrences/Icons/#1.png}}}
 
+\newcommand{\SOURCELINE}[2]{
+\SOURCE{#1}
+#2
+}
+
+\newcommand{\LRTSOURCELINE}[2]{\lr{\LTR
+\SOURCE{#1}
+#2
+}}
+
+
 % cross refrencing
 %--------------------------------------------------------------------------
 \newcommand{\CROSSREF}[2][]{\hyperlink{#2}{\ifthenelse{\isempty{#1}}{#2}{#1}(\includegraphics[height=2.5mm]{Template/images/back.png})}}
