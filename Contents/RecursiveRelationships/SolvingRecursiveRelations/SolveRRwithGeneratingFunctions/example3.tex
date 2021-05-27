@@ -1,0 +1,29 @@
+\begin{PROBLEM}
+    \p
+    رابطه صریح ‌رابطه‌ی بازگشتی 
+    $a_n=a_{n-1}+n$
+    را در صورتی که
+    $a_0=1$
+    باشد به دست آورید.
+
+    \SOLUTION{
+        \p
+        تابع مولد $G(x)$ را به شکل زیر تعریف می‌کنیم:
+        
+        $$G(x) = \sum_{n = 0}^{\infty} a_nx^n$$
+            $$a_n = a_{n-1} + n , n \geqslant 1 $$
+            $$\sum_{n = 1}^{\infty} a_nx^n = \sum_{n = 1}^{\infty} (a_{n-1}+n)x^n$$
+            $$G(x) - a_0 = \sum_{n = 1}^{\infty} a_{n-1}x^n + \sum_{n = 1}^{\infty}nx^n$$
+            $$G(x) - 1 = x\sum_{n = 1}^{\infty} a_{n-1}x^{n-1} + \sum_{n = 1}^{\infty}nx^n$$
+            $$G(x) - 1 = xG(x) + \sum_{n = 0}^{\infty}nx^n$$
+            $$G(x) - 1 - xG(x) = \frac{x}{(1 - x)^2}$$
+            $$G(x)\times(1 - x) = 1 + \frac{x}{(1 - x)^2}$$
+            $$G(x) = \frac{1}{1 - x} + \frac{x}{(1 - x)^3}$$
+            $$G(x) = \sum_{n = 0}^{\infty} x^n + \sum_{n = 0}^{\infty} \binom{n + 1}{2}x^n$$
+            $$G(x) = \sum_{n = 0}^{\infty} (\binom{n + 1}{2} + 1)x^n$$
+        طبق تعریفی که در ابتدای سوال از تابع مولد ارائه دادیم، ضریب $x^n$ همان $a_n$ است
+        که در اینجا برابر
+        $\binom{n + 1}{2} + 1$
+        می‌باشد.
+    }
+\end{PROBLEM}
