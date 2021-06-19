@@ -1,1 +1,18 @@
 \p
+\begin{enumerate}
+\item
+$$a_{n+1} - a_n = 3^n$$
+$$\Rightarrow a_{n+1} = a_0 + \frac{1}{2}(3^{n+1} - 1) \Rightarrow$$
+$$a_n = \frac{1}{2}(3^n + 1)$$
+\item
+$$a_{n+2} - 2a_{n+1} + a_n = 2^n$$
+معادله‌ی فوق را در
+$x^{n+2}$
+ضرب می‌کنیم:
+$$a_{n+2}x^{n+2} - 2a_{n+1}x^{n+2} + a_nx^{n+2} = 2^nx^{n+2}$$
+فرض می‌کنیم:
+$$f(x) = \sum_{n=0}^{\infty}a_nx^n$$
+پس:
+$$(f(x) - a_0 - a_1x) - 2x(f(x) - a_0) + x^2f(x) = \sum_{n=0}^{\infty}2^nx^{n+2}$$
+$$f(x)(1-2x+x^2)-1-2x+2x = x^2(\frac{1}{1-2x})\Rightarrow f(x) = \frac{1}{1-2x} \Rightarrow a_n = 2^n$$
+\end{enumerate}
