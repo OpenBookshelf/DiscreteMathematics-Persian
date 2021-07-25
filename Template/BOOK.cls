@@ -20,6 +20,26 @@
     inner=2.5cm
     ]{geometry}
 
+
+\RequirePackage{xkeyval}
+
+\def\docauthorname{A. U. Thor}
+\def\docname{\jobname.tex}
+\def\docdate{\today}
+
+
+\define@key{BOOK.cls}{template_root}[.]{
+  \def\templateroot{#1}
+}
+
+\define@key{BOOK.cls}{reference_icons}[.]{
+  \def\referenceicons{#1}
+}
+
+\ExecuteOptionsX{template_root,reference_icons}
+\ProcessOptionsX
+
+
 \usepackage{xcolor}
 \RequirePackage{graphicx,wrapfig}
 \usepackage{enumitem}
@@ -41,12 +61,12 @@
 
 \RequirePackage[extrafootnotefeatures]{xepersian}
 \settextfont[
-    Path={Template/fonts/},
+    Path={\templateroot/fonts/},
     BoldFont={IRLotusICEE_Bold.ttf},
     BoldItalicFont={IRLotusICEE_BoldIranic.ttf},
     ItalicFont={IRLotusICEE_Iranic.ttf},Scale=1.2
     ]{IRZar.ttf}
-\setdigitfont[Path={Template/fonts/}]{IRZar.ttf}
+\setdigitfont[Path={\templateroot/fonts/}]{IRZar.ttf}
 
 \pagestyle{fancy}
 \fancyhf{} 
@@ -97,7 +117,7 @@
 
 % cover styling
 %--------------------------------------------------------------------------
-\newcommand{\COVER}[1][Template/images/background.jpg]{
+\newcommand{\COVER}[1][\templateroot/images/background.jpg]{
     \newpage
     \thispagestyle{empty}
 
@@ -128,7 +148,7 @@
 %--------------------------------------------------------------------------
 \newcounter{chapter}
 
-\newcommand{\CHAPTER}[3][Template/images/background.jpg]{
+\newcommand{\CHAPTER}[3][\templateroot/images/background.jpg]{
     \newpage
     \thispagestyle{empty}
     \refstepcounter{chapter}
@@ -199,7 +219,7 @@
 %--------------------------------------------------------------------------
 \newcommand{\NOTE}[2][-1.5cm]{
     \p
-    {\hspace{#1}{\includegraphics[width=5mm]{Template/images/notemark.png}}}
+    {\hspace{#1}{\includegraphics[width=5mm]{\templateroot/images/notemark.png}}}
     \hspace{7mm} #2
 }
 
@@ -215,11 +235,11 @@
 {\end{tcolorbox}}
 
 
-% refrence
+% reference
 %--------------------------------------------------------------------------
-\newcommand{\REF}[1]{\hyperlink{#1}{‌\includegraphics[height=5mm]{Contents/Refrences/Icons/#1.png}‌}}
+\newcommand{\REF}[1]{\hyperlink{#1}{‌\includegraphics[height=5mm]{\referenceicons/#1.png}‌}}
 
-\newcommand{\SOURCE}[1]{\hypertarget{#1}{\includegraphics[height=5mm]{Contents/Refrences/Icons/#1.png}}}
+\newcommand{\SOURCE}[1]{\hypertarget{#1}{\includegraphics[height=5mm]{\referenceicons/#1.png}}}
 
 \newcommand{\SOURCELINE}[2]{
 \SOURCE{#1}
@@ -232,9 +252,9 @@
 }}
 
 
-% cross refrencing
+% cross referencing
 %--------------------------------------------------------------------------
-\newcommand{\CROSSREF}[2][]{\hyperlink{#2}{\ifthenelse{\isempty{#1}}{#2}{#1}(\includegraphics[height=2.5mm]{Template/images/back.png})}}
+\newcommand{\CROSSREF}[2][]{\hyperlink{#2}{\ifthenelse{\isempty{#1}}{#2}{#1}(\includegraphics[height=2.5mm]{\templateroot/images/back.png})}}
 
 \newcommand{\TARGET}[2][]{\hypertarget{#2}{#1}}
 
@@ -367,7 +387,7 @@
 
 % extra styling
 %--------------------------------------------------------------------------
-\newenvironment{EXTRA}[2][Template/images/mindset.png]
+\newenvironment{EXTRA}[2][\templateroot/images/mindset.png]
 {\begin{tcolorbox}[
     enhanced jigsaw,
     breakable,

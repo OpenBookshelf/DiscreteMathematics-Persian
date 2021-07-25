@@ -509,7 +509,7 @@ $X = \{x_1, x_2, x_3, \cdots, x_n\}$
 چپ به راست است.
 لازم است یک لوگو متناظر در
 آدرس
-\lr{Contents/Refrences/Icons/logo-name.png}
+\lr{Contents/References/Icons/logo-name.png}
 قرار گیرد.
 </p>
 
