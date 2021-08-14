@@ -23,7 +23,7 @@
         <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/TLRE.png"/>
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/releases/download/27.Feb.2021/Discrete.Mathematics.Persian.pdf">
-        <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/TLRE-Download.png" width="70" height="70"/>
+        <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/TLRE-Download.png" width="64" height="64"/>
     </a>
     <br />
     <br />
