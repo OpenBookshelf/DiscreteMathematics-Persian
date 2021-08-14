@@ -44,14 +44,14 @@
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/Mistake">
         <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Mistake?color=d73a4a" />
     </a>
-    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/Help%20Wanted">
-        <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Help%20Wanted?color=0075ca" />
+    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/HelpWanted">
+        <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/HelpWanted?color=0075ca" />
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/Suggestion">
         <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Suggestion?color=008675" />
     </a>
-    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/Accept%20Responsibility">
-        <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Accept%20Responsibility?color=7057ff" />
+    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/AcceptResponsibility">
+        <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/AcceptResponsibility?color=7057ff" />
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/pulls">
         <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/OpenBookshelf/DiscreteMathematics-Persian?color=e4e669" />
