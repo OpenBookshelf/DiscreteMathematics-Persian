@@ -1,6 +1,8 @@
-# Discrete Mathematics Persian Book - کتاب ریاضیات گسسته
-
-
+<h1 align="right">
+    کتاب ریاضیات گسسته
+    <br/>
+    (Discrete Mathematics Persian Book)
+<h1/>
 
 <p align="center">
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.en-US.md">
