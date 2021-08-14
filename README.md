@@ -3,81 +3,38 @@
 
 
 <p align="center">
-    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/README_EN.md">
-        <button
-            type="button"
-            class="btn btn-ENDES active"
-            style="background-color: #008CBA; border: none; color: white; padding: 5px 8px; border-radius: 12px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; margin-left: 10px; margin-right: 10px;"
-        >← Description
-        </button>
+    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.eb-US.md">
+        <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.eb-US.png"/>
     </a>
-    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/README_FA.md">
-        <button
-            type="button"
-            class="btn btn-FADES active"
-            style="background-color: #4CAF50; border: none; color: white; padding: 5px 8px; border-radius: 12px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; margin-left: 10px; margin-right: 10px;"
-        >
-            توضیحات →
-        </button>
+    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.fa-IR.md">
+        <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.fa-IR.png"/>
     </a>
     <br />
     <br />
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/wiki">
-        <button
-            type="button"
-            class="btn btn-ENDES active"
-            style="background-color: #00008B; border: none; color: white; padding: 5px 8px; border-radius: 12px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; margin-left: 10px; margin-right: 10px;"
-        >← Table of Contents
-        </button>
+        <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/TOC.en-US.png"/>
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/wiki">
-        <button
-            type="button"
-            class="btn btn-FADES active"
-            style="background-color: #006400; border: none; color: white; padding: 5px 8px; border-radius: 12px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; margin-left: 10px; margin-right: 10px;"
-        >
-            فهرست مطالب →
-        </button>
+        <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/TOC.fa-IR.png"/>
     </a>
     <br />
     <br />
+    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/releases">
+        <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/TLRE.png"/>
+    </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/releases/download/27.Feb.2021/Discrete.Mathematics.Persian.pdf">
-        <button
-            type="button"
-            class="btn btn-FADES active"
-            style="background-color: #B22222; border: none; color: white; padding: 5px 8px; border-radius: 12px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; margin-left: 10px; margin-right: 10px;"
-        >
-            (The Latest Released Edition) آخرین ویرایش منتشر شده
-        </button>
+        <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/TLRE-Download.png"/>
     </a>
     <br />
     <br />
     <a href="https://trello.com/b/YAIvwS4O/dm-book">
-        <button
-            type="button"
-            class="btn btn-FADES active"
-            style="background-color: #808000; border: none; color: white; padding: 5px 8px; border-radius: 12px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; margin-left: 10px; margin-right: 10px;"
-        >
-            (Workflow) گردش کار
-        </button>
+        <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/WORKFLOW.png"/>
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/CONTRIBUTION.md">
-        <button
-            type="button"
-            class="btn btn-ENDES active"
-            style="background-color: #20B2AA; border: none; color: white; padding: 5px 8px; border-radius: 12px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; margin-left: 10px; margin-right: 10px;"
-        >
-            (Collaboration Guide) راهنمای همکاری
-        </button>
+        <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/CONTRIBUTION.png"/>
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/CONTRIBUTORS.md">
-        <button
-            type="button"
-            class="btn btn-FADES active"
-            style="background-color: #B8860B; border: none; color: white; padding: 5px 8px; border-radius: 12px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer; margin-left: 10px; margin-right: 10px;"
-        >
-            (Contributors) همکاران
-        </button>
+        <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/CONTRIBUTORS.png"/>
     </a>
     <br />
     <br />
