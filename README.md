@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.eb-US.md">
-        <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.eb-US.png"/>
+        <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.en-US.png"/>
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.fa-IR.md">
         <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.fa-IR.png"/>
