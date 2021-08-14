@@ -1,9 +1,13 @@
-# Discrete Mathematics Persian Book - کتاب ریاضیات گسسته
+<h1 align="right">
+    کتاب ریاضیات گسسته
+    <br/>
+    <br/>
+    (Discrete Mathematics Persian Book)
+<h1/>
 
-
-
+<br/>
 <p align="center">
-    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.eb-US.md">
+    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.en-US.md">
         <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.en-US.png"/>
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.fa-IR.md">
@@ -30,10 +34,10 @@
     <a href="https://trello.com/b/YAIvwS4O/dm-book">
         <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/WORKFLOW.png"/>
     </a>
-    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/CONTRIBUTION.md">
+    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/CONTRIBUTION.md">
         <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/CONTRIBUTION.png"/>
     </a>
-    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/CONTRIBUTORS.md">
+    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/CONTRIBUTORS.md">
         <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/CONTRIBUTORS.png"/>
     </a>
     <br />
