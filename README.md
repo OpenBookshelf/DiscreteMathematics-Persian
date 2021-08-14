@@ -45,7 +45,7 @@
         <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Mistake?color=d73a4a" />
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/Help%20Wanted">
-        <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Help%20Wanted?color=#075ca" />
+        <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Help%20Wanted?color=0075ca" />
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/Suggestion">
         <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Suggestion?color=008675" />
