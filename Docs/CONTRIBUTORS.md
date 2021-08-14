@@ -37,6 +37,12 @@
             <sub><b>Melika Minaie</b></sub>
          </a><br />
       </td>
+      <td align="center">
+         <a href="https://arefafzali.github.io/">
+            <img src="https://avatars.githubusercontent.com/u/40772805?v=4" width="100px;"/><br />
+            <sub><b>Aref Afzali</b></sub>
+         </a><br />
+      </td>
    </tr>
 </table>
 
