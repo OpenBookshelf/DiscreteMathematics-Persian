@@ -45,10 +45,10 @@
         <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Mistake?color=d73a4a" />
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/Help%20Wanted">
-        <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Help%20Wanted?color=008672" />
+        <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Help%20Wanted?color=#075ca" />
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/Suggestion">
-        <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Suggestion?color=0075ca" />
+        <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Suggestion?color=008675" />
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/Accept%20Responsibility">
         <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Accept%20Responsibility?color=7057ff" />
