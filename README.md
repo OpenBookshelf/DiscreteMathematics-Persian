@@ -1,9 +1,9 @@
-<h1 align="right">
+<h1 dir="rtl">
     کتاب ریاضیات گسسته
     <br/>
     <br/>
     (Discrete Mathematics Persian Book)
-<h1/>
+</h1>
 
 <br/>
 <p align="center">
@@ -41,9 +41,9 @@
 </p>
 
 <br/>
-<table border="none">
+<table>
     <tr>
-        <td align="center" border="none">
+        <td align="center">
             <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/Mistake">
                 <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Mistake?color=d73a4a" />
             </a>
@@ -51,7 +51,7 @@
                 <img alt="Issues" src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/NewMistake.png" />
             </a>
         </td>
-        <td align="center" border="none">
+        <td align="center">
             <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/HelpWanted">
                 <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/HelpWanted?color=0075ca" />
             </a>
@@ -59,7 +59,7 @@
                 <img alt="Issues" src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/NewHelpWanted.png" />
             </a>
         </td>
-        <td align="center" border="none">
+        <td align="center">
             <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/Suggestion">
                 <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Suggestion?color=b3b541" />
             </a>
@@ -67,7 +67,7 @@
                 <img alt="Issues" src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/NewSuggestion.png" />
             </a>
         </td>
-        <td align="center" border="none">
+        <td align="center">
             <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/AcceptResponsibility">
                 <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/AcceptResponsibility?color=7057ff" />
             </a>
