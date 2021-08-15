@@ -18,13 +18,13 @@
     </a>
     <br />
     <br />
-    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/wiki">
+    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/wiki/Table-of-Contents">
         <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/TOC.en-US.png"/>
     </a>
     <a href="https://trello.com/b/YAIvwS4O/dm-book">
         <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/WORKFLOW.png"/>
     </a>
-    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/wiki">
+    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/wiki/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%A8">
         <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/TOC.fa-IR.png"/>
     </a>
     <br />
