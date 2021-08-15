@@ -61,7 +61,7 @@
         </td>
         <td align="center" border="none">
             <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/Suggestion">
-                <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Suggestion?color=008675" />
+                <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Suggestion?color=e4e669" />
             </a>
             <a href="#">
                 <img alt="Issues" src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/NewSuggestion.png" />
@@ -77,9 +77,4 @@
         </td>
     </tr>
 </table>
-    
-<p align="center">
-    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/pulls">
-        <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/OpenBookshelf/DiscreteMathematics-Persian?color=e4e669" />
-    </a>
 </p>
