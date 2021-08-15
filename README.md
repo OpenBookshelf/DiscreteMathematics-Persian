@@ -61,7 +61,7 @@
         </td>
         <td align="center" border="none">
             <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/labels/Suggestion">
-                <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Suggestion?color=e4e669" />
+                <img alt="Issues" src="https://img.shields.io/github/issues/OpenBookshelf/DiscreteMathematics-Persian/Suggestion?color=b3b541" />
             </a>
             <a href="#">
                 <img alt="Issues" src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/NewSuggestion.png" />
