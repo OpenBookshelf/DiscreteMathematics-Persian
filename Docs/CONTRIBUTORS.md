@@ -43,6 +43,12 @@
             <sub><b>Aref Afzali</b></sub>
          </a><br />
       </td>
+      <td align="center">
+         <a href="https://hadisafari.ir/">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Crystal_Clear_kdm_user_male.svg" width="100px;"/><br />
+            <sub><b>Hadi Safari</b></sub>
+         </a><br />
+      </td>
    </tr>
 </table>
 
