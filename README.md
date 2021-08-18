@@ -13,7 +13,7 @@
 </h1>
 
 <p>
-    Open-Source Discrete Mathematics Persian Book is a self-help book on discrete mathematics that is provided by volunteers without any expectation and is offered for free. In the process of producing this content, no costs are paid and only open-source and free platforms are used. Any use and distribution of this digital content is free and unrestricted as long as it does not generate revenue. People involved in creating this content will devote their time and effort to the public and will not be accepting its commercial use. If you also like the beautiful taste of free education, we welcome and appreciate any help in continuing this.
+    Open-Source Discrete Mathematics Persian Book is a self-help book on discrete mathematics that is provided by volunteers without any expectation and is offered for free. In the process of producing this content, no costs are paid and only open-source and free platforms are usage. Any use and distribution of this digital content is free and unrestricted as long as it does not generate revenue. People involved in creating this content will devote their time and effort to the public and will not be accepting its commercial use. If you also like the beautiful taste of free education, we welcome and appreciate any help in continuing this.
 </p>
 
 ***
