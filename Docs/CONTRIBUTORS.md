@@ -28,6 +28,18 @@
    </tr>
 </table>
 
+## Under the Supervision of
+<table>
+   <tr>
+      <td align="center">
+         <a href="https://ece.ut.ac.ir/en/~smohamadi">
+            <img src="https://dsdlab.ut.ac.ir/people/img/sm.jpg" width="100px;"/><br />
+            <sub><b>Dr. Siamak<br />Mohammadi</b></sub>
+         </a><br />
+      </td>
+   </tr>
+</table>
+
 ## Contributors
 <table>
    <tr>
@@ -49,12 +61,6 @@
             <sub><b>Hadi Safari</b></sub>
          </a><br />
       </td>
-   </tr>
-</table>
-
-## Under the Supervision of
-<table>
-   <tr>
    </tr>
 </table>
 
