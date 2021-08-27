@@ -15,14 +15,26 @@
    <tr>
       <td align="center">
          <a href="https://github.com/soudabemhashemi">
-            <img src="https://avatars.githubusercontent.com/u/58254436?v=4" width="100px;"/><br />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1200px-Crystal_Clear_kdm_user_female.svg.png" width="100px;"/><br />
             <sub><b>Soudabe<br />Mohammadhashemi</b></sub>
          </a><br />
       </td>
       <td align="center">
          <a href="https://github.com/kymmt80">
-            <img src="https://avatars.githubusercontent.com/u/63723127?v=4" width="100px;"/><br />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1200px-Crystal_Clear_kdm_user_female.svg.png" width="100px;"/><br />
             <sub><b>Kimiya<br />Mohammadtaheri</b></sub>
+         </a><br />
+      </td>
+   </tr>
+</table>
+
+## Under the Supervision of
+<table>
+   <tr>
+      <td align="center">
+         <a href="https://ece.ut.ac.ir/en/~smohamadi">
+            <img src="https://dsdlab.ut.ac.ir/people/img/sm.jpg" width="100px;"/><br />
+            <sub><b>Dr. Siamak<br />Mohammadi</b></sub>
          </a><br />
       </td>
    </tr>
@@ -33,7 +45,7 @@
    <tr>
       <td align="center">
          <a href="https://github.com/trevorika">
-            <img src="https://avatars.githubusercontent.com/u/72686659?v=4" width="100px;"/><br />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1200px-Crystal_Clear_kdm_user_female.svg.png" width="100px;"/><br />
             <sub><b>Melika Minaie</b></sub>
          </a><br />
       </td>
@@ -43,12 +55,12 @@
             <sub><b>Aref Afzali</b></sub>
          </a><br />
       </td>
-   </tr>
-</table>
-
-## Under the Supervision of
-<table>
-   <tr>
+      <td align="center">
+         <a href="https://hadisafari.ir/">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Crystal_Clear_kdm_user_male.svg" width="100px;"/><br />
+            <sub><b>Hadi Safari</b></sub>
+         </a><br />
+      </td>
    </tr>
 </table>
 
