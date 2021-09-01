@@ -91,3 +91,7 @@
     </tr>
 </table>
 </p>
+
+<div align="center">
+    <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/Preview.png" height="500px"/>
+</div>
