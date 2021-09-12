@@ -17,7 +17,7 @@
 </h1>
 
 <p>
-    This is an open-source self-learning Persian textbook on discrete mathematics provided by volunteers without any expectation and offered for free. In producing this content, we didn't pay any costs and only used open-source and free platforms. Any use and distribution of this digital content are unrestricted as long as it does not generate revenue. People involved in creating this content will devote their time and effort to the public and not accept its commercial use. If you also like the exquisite taste of free education, we welcome and appreciate any help continuing this.
+    This is an open-source Persian book on discrete mathematics provided by volunteers without any expectation and offered for free. In producing this content, we didn't pay any costs and only used open-source and free platforms. Any use and distribution of this digital content are unrestricted as long as it does not generate revenue. People involved in creating this content will devote their time and effort to the public and not accept its commercial use. If you also like the exquisite taste of free education, we welcome and appreciate any help continuing this.
     
 * FIPA will be registered soon.
 </p>
