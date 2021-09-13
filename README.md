@@ -6,6 +6,10 @@
     این یک کتاب درسی خودآموز فارسی منبع‌باز در زمینه‌ی ریاضیات گسسته است که توسط داوطلبان، بدون هیچ چشم‌داشتی تهیه و به صورت رایگان عرضه می‌شود. در فرایند تولید این محتوا، بدون پرداخت هیچ هزینه‌ای، فقط از بسترهای منبع‌باز و رایگان استفاده می‌شود. هرگونه استفاده و توزیع این محتوای دیجیتالی رایگان و بلامانع است مادامی که درآمدی ایجاد نکند. افرادی که در تولید این محتوا نقش دارند، وقت و تلاش خود را وقف عام کرده و به استفاده تجاری از آن راضی نیستند. اگر شما نیز طعم لذیذ آموزش رایگان را می‌پسندید ، از هرگونه یاری در ادامه‌ی این امر استقبال و قدردانی می‌شود.
 </p>
 
+<li align="right" dir="rtl">
+فیپا به زودی ثبت خواهد شد.
+</li>
+
 ***
 
 <h1>
@@ -13,7 +17,9 @@
 </h1>
 
 <p>
-    This is an open-source self-learning Persian textbook on discrete mathematics provided by volunteers without any expectation and offered for free. In producing this content, we didn't pay any costs and only used open-source and free platforms. Any use and distribution of this digital content are unrestricted as long as it does not generate revenue. People involved in creating this content will devote their time and effort to the public and not accept its commercial use. If you also like the exquisite taste of free education, we welcome and appreciate any help continuing this.
+    This is an open-source Persian book on discrete mathematics provided by volunteers without any expectation and offered for free. In producing this content, we didn't pay any costs and only used open-source and free platforms. Any use and distribution of this digital content are unrestricted as long as it does not generate revenue. People involved in creating this content will devote their time and effort to the public and not accept its commercial use. If you also like the exquisite taste of free education, we welcome and appreciate any help continuing this.
+    
+* FIPA will be registered soon.
 </p>
 
 ***
