@@ -3,8 +3,12 @@
 </h1>
 
 <p dir="rtl">
-    کتاب منبع-باز و فارسی زبان ریاضیات گسسته کتابی خودآموز در مباحث ریاضیات گسسته است که توسط افراد داوطلب و بدون چشم‌داشت آماده شده و به صورت رایگان عرضه می‌شود. در فرایند تولید این محتوا، هیچ هزینه‌ای پرداخت نشده و تنها از بستر‌های منبع-باز و رایگان استفاده گردیده است. هر گونه استفاده و توزیع این محتوای دیجیتال رایگان و بلامانع است تا زمانی که از آن درآمدزایی نشود. افراد درگیر تهیه این محتوا، زمان و تلاش خود را وقف عام کرده و راضی به استفاده تجاری از آن نخواهند بود. اگر شما نیز طعم زیبای آموزش رایگان را می‌پسندید، پذیرا و قدردان هرگونه یاری در ادامه این امر هستیم.
+    این یک کتاب درسی خودآموز فارسی منبع‌باز در زمینه‌ی ریاضیات گسسته است که توسط داوطلبان، بدون هیچ چشم‌داشتی تهیه و به صورت رایگان عرضه می‌شود. در فرایند تولید این محتوا، بدون پرداخت هیچ هزینه‌ای، فقط از بسترهای منبع‌باز و رایگان استفاده می‌شود. هرگونه استفاده و توزیع این محتوای دیجیتالی رایگان و بلامانع است مادامی که درآمدی ایجاد نکند. افرادی که در تولید این محتوا نقش دارند، وقت و تلاش خود را وقف عام کرده و به استفاده تجاری از آن راضی نیستند. اگر شما نیز طعم لذیذ آموزش رایگان را می‌پسندید ، از هرگونه یاری در ادامه‌ی این امر استقبال و قدردانی می‌شود.
 </p>
+
+<li align="right" dir="rtl">
+فیپا به زودی ثبت خواهد شد.
+</li>
 
 ***
 
@@ -13,7 +17,9 @@
 </h1>
 
 <p>
-    Open-Source Discrete Mathematics Persian Book is a self-learning book on discrete mathematics that is provided by volunteers without any expectation and is offered for free. In the process of producing this content, no costs are paid and only open-source and free platforms are used. Any use and distribution of this digital content is free and unrestricted as long as it does not generate revenue. People involved in creating this content will devote their time and effort to the public and will not be accepting its commercial use. If you also like the beautiful taste of free education, we welcome and appreciate any help in continuing this.
+    This is an open-source Persian book on discrete mathematics provided by volunteers without any expectation and offered for free. In producing this content, we didn't pay any costs and only used open-source and free platforms. Any use and distribution of this digital content are unrestricted as long as it does not generate revenue. People involved in creating this content will devote their time and effort to the public and not accept its commercial use. If you also like the exquisite taste of free education, we welcome and appreciate any help continuing this.
+    
+* FIPA will be registered soon.
 </p>
 
 ***
@@ -53,6 +59,10 @@
     </a>
 </p>
 
+<div align="center">
+    <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/Preview.png" height="500px"/>
+</div>
+
 <br/>
 <table>
     <tr>
@@ -91,7 +101,3 @@
     </tr>
 </table>
 </p>
-
-<div align="center">
-    <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/Preview.png" height="500px"/>
-</div>
