@@ -1,0 +1,3 @@
+[submodule "PersianTextbookTemplate"]
+	path = PersianTextbookTemplate
+	url = https://github.com/OpenBookshelf/PersianTextbookTemplate.git
