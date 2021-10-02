@@ -56,6 +56,12 @@
          </a><br />
       </td>
       <td align="center">
+         <a href="https://hadisafari.ir/">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Crystal_Clear_kdm_user_male.svg" width="100px;"/><br />
+            <sub><b>Hadi Safari</b></sub>
+         </a><br />
+      </td>
+      <td align="center">
          <a href="https://github.com/RojinRastegarpour/">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1200px-Crystal_Clear_kdm_user_female.svg.png"  width="100px;"/><br />
             <sub><b>Rojin<br/>Rastegarpour</b></sub>
