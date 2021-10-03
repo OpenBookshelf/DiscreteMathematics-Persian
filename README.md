@@ -29,7 +29,7 @@
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.en-US.md">
         <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.en-US.png"/>
     </a>
-    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/releases/download/27.Feb.2021/Discrete.Mathematics.Persian.pdf">
+    <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/releases/download/3.Oct.2021/Discrete.Mathematics.Persian.pdf">
         <img src="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/TLRE-Download.png"/>
     </a>
     <a href="https://github.com/OpenBookshelf/DiscreteMathematics-Persian/blob/master/Docs/README.fa-IR.md">
