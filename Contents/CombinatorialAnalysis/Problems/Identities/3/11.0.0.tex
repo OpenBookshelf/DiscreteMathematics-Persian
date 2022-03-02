@@ -1,0 +1,7 @@
+\p
+سمت چپ معادله برابر است با:
+	$$\sum\limits_{k = 0}^m \frac{{m \choose k}}{{n \choose k}} = \sum\limits_{k = 0}^m \frac{\frac{m!}{k!(m - k)!}}{\frac{n!}{k!(n - k)!}} 
+	= \sum\limits_{k = 0}^m \frac{\frac{(n - k)!}{(n - m)!(m - k)!}}{\frac{n!}{(n - m)!m!}}$$
+	
+	$$ = \sum\limits_{k = 0}^m \frac{{n - k \choose m - k}}{{n \choose m}} \mathrel{\overset{\makebox[0pt]{\mbox{\normalfont\tiny $i  \xleftarrow{\text{ تغییر متغیر}}  m - k$}}}{=\joinrel=\joinrel=\joinrel=\joinrel=\joinrel\joinrel=\joinrel=\joinrel=}} \frac{\sum\limits_{i = 0}^m {n - m + i \choose i}}{{n \choose m}}  $$
+	$$\mathrel{\overset{\makebox[0pt]{\text{\normalfont\tiny  چوشی‌چی اتحاد طبق }}} {=\joinrel=\joinrel=\joinrel=\joinrel=\joinrel=\joinrel}} \frac{{n+1 \choose m}}{{n \choose m}} = \frac{\frac{(n+1)!}{m!(n - m + 1)!}}{\frac{n!}{m!(n - m)!}} = \frac{n+1}{n - m + 1}$$
