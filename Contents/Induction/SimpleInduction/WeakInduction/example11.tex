@@ -1,0 +1,44 @@
+\begin{PROBLEM}
+	\p
+	ثابت کنید به ازای هر 
+	$ sin(x) \neq 0, n \in N$
+	داریم:
+
+	$$ cos(x) \times cos(2x) \dots \times cos(2^{n - 1}x) = \frac{sin(2^n x)}{s^n sin(x)}$$
+	\SOLUTION{
+		حکم را با استقرا روی 
+		$n$
+		اثبات می‌کنیم.
+
+		در ابتدا توجه کنید حکم به ازای 
+		$n = 1$
+		صحیح است:
+
+		$$sin(2x) = 2 sin(x) cos(x) \implise cos(x) = \frac{sin(2x)}{2sin(x)}$$
+
+		حال فرض کنید حکم به ازای
+		$n = k; k \in N$
+		صحیح باشد. ما حکم را به ازای 
+		$n = k + 1$
+		اثبات می‌کنیم.
+
+		طبق فرض استقرا داریم:
+
+		$$ cos(x) \times cos(2x) \dots \times cos(2^{k - 1}x) = \frac{sin(2^k x)}{s^k sin(x)}$$
+
+		در نتیجه داریم:
+
+		$$ cos(x) \times cos(2x) \dots \times cos(2^{k - 1}x) \times cos(2^k x) = \frac{sin(2^k x)}{2^k sin(x)} \times 
+				cos(2^k x) = \frac{2 sin(2^k x) cos(2^k x)}{2 * 2^k sin(x)} = \frac{sin(2^{k+1})}{2^{k + 1} sin(x)}$$
+
+		در نتیجه حکم برای 
+		$n = k + 1$
+		نیز صحیح است.
+
+		در نتیجه چون 
+		$x$
+		به صورت دلخواه انتخاب شده بود نتیجه می‌گیریم حکم به ازای هر 
+		$n, x; n \in N, sin(x) != 0$
+		صحیح است.
+	}
+
