@@ -7,6 +7,12 @@
             <sub><b>Behzad Shayegh</b></sub>
          </a><br />
       </td>
+      <td align="center">
+         <a href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Crystal_Clear_kdm_user_male.svg" width="100px;"/><br />
+            <sub><b>Yara Kamkar</b></sub>
+         </a><br />
+      </td>
    </tr>
 </table>
 
@@ -43,12 +49,6 @@
 ## Contributors
 <table>
    <tr>
-      <td align="center">
-         <a href="#">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Crystal_Clear_kdm_user_male.svg" width="100px;"/><br />
-            <sub><b>Yara Kamkar</b></sub>
-         </a><br />
-      </td>
       <td align="center">
          <a href="https://arefafzali.github.io/">
             <img src="https://avatars.githubusercontent.com/u/40772805?v=4" width="100px;"/><br />
@@ -91,8 +91,6 @@
             <sub><b>Borna Tavasoli</b></sub>
          </a><br />
       </td>
-   </tr>
-   <tr>
       <td align="center">
          <a href="https://github.com/ryhnAp">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1200px-Crystal_Clear_kdm_user_female.svg.png" width="100px;"/><br />
