@@ -14,6 +14,7 @@ endef
 
 all:
 	xelatex $(TEX_FILE)
+	xelatex $(TEX_FILE)
 
 open:
 	xdg-open $(PDF_FILE)
